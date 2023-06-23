@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(
+    white,
+    rgb(37, 97, 175),
+    rgb(8, 97, 156),
+    rgb(54, 54, 230),
+    Black
+  );
+  backdrop-filter: blur(20px);
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 150px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: url("textmask.jpg");
+}
+
+p {
+  color: white;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+}
+
+.pad-action {
+  font-size: large;
+  margin: auto;
+  padding: 50px 100px;
+  width: 60%;
+  /* max-width: fit-content; */
+}
+
+.paragraph {
+  color: rgba(19, 241, 223, 0.863);
+}
+
+div p {
+  color: black;
+  font-size: larger;
+}
+
+.moveimg {
+  size: 50%;
+}
